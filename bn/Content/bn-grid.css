@@ -1,0 +1,99 @@
+﻿.divGrid {
+    /*text-align: center;*/
+}
+
+table.grid {
+    border: solid 1px #D8DEE4;
+    border-collapse: collapse;
+    font-size: 11px;
+}
+
+    table.grid td {
+        padding: 4px 5px;
+        border: solid 1px #D8DEE4;
+        color: Black;
+        white-space: nowrap;
+    }
+
+    table.grid tr:nth-child(odd) {
+        background-color: #F5F5F5;
+    }
+
+    table.grid tr:nth-child(even) {
+        background-color: #FFFFFF;
+    }
+
+    table.grid th {
+        padding: 4px 5px;
+        border: solid 1px #D8DEE4;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+
+.gridPager {
+    font-weight: bold;
+    color: #696969;
+    margin: 5px;
+    text-align: left;
+    font-size: 11px;
+}
+
+    .gridPager a {
+        cursor: pointer;
+    }
+
+        .gridPager a div {
+            font-weight: bold;
+            color: #696969;
+            padding: 3px 7px;
+            background-color: #e8eef4;
+            display: inline-block;
+        }
+
+        .gridPager a:hover div {
+            color: #e8eef4;
+            background-color: #cc0933;
+        }
+
+    .gridPager div.currentPage {
+        font-weight: bold;
+        color: #e8eef4;
+        background-color: #cc0933;
+        padding: 3px 7px;
+        display: inline-block;
+    }
+
+.gridButton {
+    display: inline;
+    vertical-align: middle;
+    margin: 0px 3px;
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.gridCommandCell {
+    white-space: nowrap;
+}
+
+td.detailSpace, td.detailSpace:hover {
+    background-color: rgba(0,0,0,0.1) !important;
+}
+
+.loading-popup-modal {
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 99998 !important;
+}
+
+.loading-popup-modal > div {
+    position: fixed;
+    top: 50%;
+    left: 0%;
+    right: 0;
+    transform: translateY(-50%);
+}
